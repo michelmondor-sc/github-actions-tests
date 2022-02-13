@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   run-github-actions:
-     run-on: ubuntu-latest
+     runs-on: ubuntu-latest
      steps:
        - name: Simple JS Action
          id: greet
